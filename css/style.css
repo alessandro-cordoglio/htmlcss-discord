@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /*---------------
@@ -90,6 +91,10 @@
     border: none;
     cursor: pointer;
     transition: all .5s ease;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+
 }
 
 h1{
@@ -149,19 +154,45 @@ header{
     margin: auto;
     height: 400px;
     width: 900px;
-    align-items: center;
     text-align: center;
     color: white;
+    padding: 40px;
 }
 
 .login{
     background-color: white;
-    border-radius: 20px;
     width: 90px;
     height: 40px;
     text-align: center;
+    padding: 20px;
     font-size: 17px;
-    cursor: pointer;
+}
+
+.download p{
+    margin-top: 30px ;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.scarica{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.open-browser{
+    width: 240px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 
