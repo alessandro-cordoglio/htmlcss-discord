@@ -100,6 +100,11 @@ h1{
     font-size: 40px;
 }
 
+h5{
+    font-size: 17px;
+    color: #4766BE;
+}
+
 /*---------------
     HEADER
 --------------- */
@@ -124,22 +129,26 @@ header{
     width: 70%;
 }
 
+.list a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .hlist{
-    list-style: none;
     text-align: center;
+}
+
+.list{
+    list-style: none;
 }
 
 .hlist li{
     display: inline-block;
-    text-decoration: none;
+    margin-left: 50px;
+    
 }
 
-.hlist a{
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 18px;
-}
 
 .download-container{
     display: flex;
@@ -250,12 +259,37 @@ header{
     margin-top: 15px;
     line-height: 30px;
 }
+
+.col-finale h1{
+    font-size: 33px;
+}
+
+.col-finale .button{
+    margin-top: 20px;
+}
+
+.sec-main button{
+    margin-top: 30px;
+    background-color: #7289DA;
+    color: white;
+    height: 36px;
+    width: 130px;
+    font-weight: bold;
+}
+
+.text{
+    background-image: url(../img/stars.svg);
+    width: 500px;
+    background-size: 100%;
+}
+
 /*---------------
     FOOTER
 --------------- */
 
 footer{
     padding: 0px 16% 50px 16% ;
+    background-color: #23272A;
 }
 
 .footer-section{
@@ -265,31 +299,57 @@ footer{
 .row-footer{
     display: flex;
     flex-direction: row; 
-    align-items: center;  
+    align-items: flex-start;  
     margin-bottom: 40px; 
+    margin-top: 40px;
 }
 
 .column-f-first{
-    /* height: 400px; */
     width: 25%;
 }
 
 .column-f{
-    /* height: 400px; */
     flex-grow: 1;
 }
 
 .row-info{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 70px;
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
-.col-info{
-    padding: 8px;
+.column-f-first h1{
+    color: #4766BE;
+    font-size: 33px;
 }
+
+.column-f-first img{
+    width: 20px;
+    margin-top: 20px;
+}
+
+.vlist li{
+    margin-top: 20px ;
+}
+
+.row-info-section{
+    border-top: 1px solid #4766BE  ;
+
+}
+
+.registrati{
+    background-color: #7289DA;
+    color: white;
+    height: 36px;
+    width: 100px;
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 
